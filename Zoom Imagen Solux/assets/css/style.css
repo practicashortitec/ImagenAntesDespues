@@ -1,0 +1,46 @@
+
+.page-container{
+    display:flex;
+    flex-direction: column;
+
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 2em;
+}
+
+.botones{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+button{
+   /* background-color: rgb(57, 57, 57);
+*/
+background-color:  #f9f9fa;
+
+
+
+    color: black;
+  /*  border-color: rgb(255, 255, 255); */
+    border-radius: 20%;
+    margin: 1em;
+    height: 1.8em;
+    width: 1.8em;
+    text-align: center;
+    font-size: xx-large;
+}
+
+button:hover{
+    border-color: rgb(57, 57, 57);   
+    background-color:  rgb(255, 255, 255);
+    color: black;
+    cursor: pointer;
+    position: relative;
+    top:2px;
+    left: 2px;
+    box-shadow: 1px 1px 2px;
+}
+
